@@ -1,0 +1,12 @@
+Source: fakechroot-cross-target-helper
+Section: core
+Priority: optional
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 7)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7)
+
+Package: fakechroot-cross-target-helper
+Architecture: all
+Description: helper package for fakechroot-cross operation
+ This package provides fake ldconfig and start-stop-daemon to facilitate
+ installing foreign packages using fakechroot-cross.

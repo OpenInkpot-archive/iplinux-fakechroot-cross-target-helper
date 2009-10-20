@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+if [ upgrade != "$1" ]; then
+    dpkg-divert --package fakechroot-cross-target-helper --add --rename \
+        --divert /sbin/ldconfig.REAL /sbin/ldconfig
+    dpkg-divert --package fakechroot-cross-target-helper --add --rename \
+        --divert /sbin/start-stop-daemon.REAL /sbin/start-stop-daemon
+fi

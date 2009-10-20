@@ -1,0 +1,5 @@
+fakechroot-cross-target-helper (0.1) asimov; urgency=low
+
+  * Initial release.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Tue, 20 Oct 2009 16:37:13 +0700
